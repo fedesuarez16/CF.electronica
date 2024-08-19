@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next/types";
 import * as Commerce from "commerce-kit";
-import ImageOne from "./pngwing.com (3).png";
+import ImageOne from "./hero.png";
 import { ProductList } from "@/ui/products/productList";
 import { CategoryBox } from "@/ui/CategoryBox";
 import AccessoriesImage from "@/images/accessories.png";
@@ -18,18 +18,18 @@ export default async function Home() {
 
 	return (
 		<main>
-			<section className="rounded bg-neutral-100 py-8 sm:py-12">
+			<section className="rounded bg-neutral-900 py-8 sm:py-12">
 				<div className="mx-auto grid grid-cols-1 items-center justify-items-center gap-8 px-8 sm:px-16 md:grid-cols-2">
 					<div className="max-w-md space-y-4">
-						<h2 className="text-balance text-3xl font-bold tracking-tight md:text-4xl">
+						<h2 className="text-balance text-3xl font-bold tracking-tight text-white md:text-4xl">
 							Descubri la coleccion de productos de{" "}
-							<p className="text-orange-500">Tiendacompleta</p>
+							<p className="text-neutral-600">CF electronica</p>
 						</h2>
-						<p className="text-pretty text-neutral-600">
+						<p className="text-pretty text-white">
 							Explora nuestra seleccion de productos y encontra lo que estas buscando{" "}
 						</p>
 						<YnsLink
-							className="inline-flex h-10 items-center justify-center rounded-full bg-neutral-900 px-6 font-medium text-neutral-50 transition-colors hover:bg-neutral-900/90 focus:outline-none focus:ring-1 focus:ring-neutral-950"
+							className="inline-flex h-10 items-center justify-center rounded-full bg-white px-6 font-medium text-neutral-500 transition-colors hover:bg-neutral-900/90 focus:outline-none focus:ring-1 focus:ring-neutral-950"
 							href="/products"
 						>
 							Compra ahora.
