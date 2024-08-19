@@ -22,14 +22,13 @@ export default async function Home() {
 				<div className="mx-auto grid grid-cols-1 items-center justify-items-center gap-8 px-8 sm:px-16 md:grid-cols-2">
 					<div className="max-w-md space-y-4">
 						<h2 className="text-balance text-3xl font-bold tracking-tight text-white md:text-4xl">
-							Descubri la coleccion de productos de{" "}
-							<p className="text-neutral-600">CF electronica</p>
+							Encontrá lo que estas buscando en <p className="text-neutral-600">CF electronica</p>
 						</h2>
 						<p className="text-pretty text-white">
 							Explora nuestra seleccion de productos y encontra lo que estas buscando{" "}
 						</p>
 						<YnsLink
-							className="inline-flex h-10 items-center justify-center rounded-full bg-white px-6 font-medium text-neutral-500 transition-colors hover:bg-neutral-900/90 focus:outline-none focus:ring-1 focus:ring-neutral-950"
+							className="inline-flex h-10 items-center justify-center rounded-full bg-white px-6 font-medium text-neutral-800 transition-colors hover:bg-neutral-400 focus:outline-none focus:ring-1 focus:ring-neutral-400"
 							href="/products"
 						>
 							Compra ahora.
